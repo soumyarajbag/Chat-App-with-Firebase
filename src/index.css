@@ -5,3 +5,13 @@
 body{
     background-color: black;
 }
+@layer
+ utilities {
+  
+.max-content
+ {
+    
+max-width
+: max-content;
+  }
+}
