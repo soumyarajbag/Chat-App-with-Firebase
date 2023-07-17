@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 const Message = () => {
-    const [user , setUser]=useState(false)
+    const [user , setUser]=useState(true)
   return (
     <div className={`flex ${user?"flex-row-reverse items-end":"flex-row items-start"} gap-[20px]`}>
         <div className='flex flex-col text-md text-gray-600 mb-[20px]'>
